@@ -36,6 +36,12 @@ variable "api_key" {
   type        = string
   description = "(Required) API key for web app to talk to SaaS platform."
 }
+
+variable "playbook_repository" {
+  type        = string
+  description = "(Required) URI of Ansible playbook"
+}
+
 variable "tfe_organization" {
   type        = string
   description = "(Required) Name of TFC org"
